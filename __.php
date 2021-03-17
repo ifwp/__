@@ -3,7 +3,7 @@
 Plugin Name: __
 Plugin URI: https://github.com/ifwp/__
 Description: A collection of useful functions for your WordPress theme's functions.php
-Version: 0.3.17.4
+Version: 0.3.17.5
 Requires at least: 5.6
 Requires PHP: 5.6
 Author: Luis del Cid
