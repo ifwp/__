@@ -1028,7 +1028,7 @@ if(!function_exists('__seems_successful')){
 
 if(!function_exists('__seems_wp_http_requests_response')){
     function __seems_wp_http_requests_response($data = null){
-        return (__array_keys_exist(['body', 'cookies', 'filename', 'headers', 'http_response', 'response'], $response) and ($response['http_response'] instanceof WP_HTTP_Requests_Response));
+        return (__array_keys_exist(['body', 'cookies', 'filename', 'headers', 'http_response', 'response'], $data) and ($data['http_response'] instanceof WP_HTTP_Requests_Response));
     }
 }
 
