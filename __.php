@@ -3,7 +3,7 @@
 Plugin Name: __
 Plugin URI: https://github.com/ifwp/__
 Description: A collection of useful functions for your WordPress theme's functions.php
-Version: 0.3.17.5
+Version: 0.3.17.6
 Requires at least: 5.6
 Requires PHP: 5.6
 Author: Luis del Cid
@@ -17,7 +17,7 @@ if(defined('ABSPATH')){
     require_once(plugin_dir_path(__FILE__) . 'functions.php');
     $__fs = __filesystem();
     if(is_wp_error($__fs)){
-        __add_admin_notice($__fs->get_error_message());
+        __add_admin_notice('<strong>__' . strtolower(__('Error')) . '</strong>: ' . $__fs->get_error_message());
     }
     __build_update_checker('https://github.com/ifwp/__', __FILE__, '__');
     __on('after_setup_theme', function(){
