@@ -3,11 +3,11 @@
 Plugin Name: __
 Plugin URI: https://github.com/ifwp/__
 Description: A collection of useful functions for your WordPress theme's functions.php
-Version: 0.3.17.6
+Version: 0.3.18
 Requires at least: 5.6
 Requires PHP: 5.6
-Author: Luis del Cid
-Author URI: https://github.com/luisdelcid
+Author: Improvements and Fixes for WordPress
+Author URI: https://github.com/ifwp
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Network: true
